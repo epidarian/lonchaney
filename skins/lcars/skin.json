@@ -1,0 +1,207 @@
+{
+  "name": "LCARS",
+  "palette": {
+    "black": "#000000",
+    "orange": "#FF9900",
+    "tan": "#FFCC99",
+    "peach": "#FF9966",
+    "lilac": "#CC99CC",
+    "lavender": "#9999CC",
+    "blue": "#9999FF",
+    "sky": "#99CCFF",
+    "rust": "#CC6666",
+    "gold": "#FFCC66",
+    "panel": "#14122A",
+    "panelHigh": "#22203A",
+    "violet": "#3D2E5C",
+    "violetHigh": "#4A3A70",
+    "dim": "#8A86B8",
+    "line": "#3A3355"
+  },
+  "theme": {
+    "variant": "dark",
+    "colors": {
+      "background": "black",
+      "button": "violet",
+      "disabled": "#6E6A98",
+      "disabledButton": "#1E1A2E",
+      "error": "#FF5555",
+      "focus": "#FF9900AA",
+      "foreground": "tan",
+      "foregroundOnPrimary": "black",
+      "headerBackground": "panelHigh",
+      "hover": "#2E2547",
+      "hyperlink": "sky",
+      "inputBackground": "panel",
+      "inputBorder": "line",
+      "menuBackground": "panel",
+      "overlayBackground": "panel",
+      "placeholder": "dim",
+      "pressed": "violetHigh",
+      "primary": "orange",
+      "scrollBar": "#9999CC88",
+      "selection": "#5A3A6E",
+      "separator": "line",
+      "shadow": "#00000088",
+      "success": "#99CC99",
+      "warning": "gold"
+    },
+    "sizes": {
+      "inputRadius": 16,
+      "selectionRadius": 8
+    }
+  },
+  "panes": {
+    "window": {
+      "layers": [
+        {
+          "draw": [
+            {"op":"rect","rect":[0,0,1,1],"fill":"black"}
+          ]
+        }
+      ]
+    },
+    "handle": {
+      "layers": [
+        {
+          "draw": [
+            {"op":"rect","rect":[0,0,1,1],"fill":"black"}
+          ]
+        }
+      ]
+    },
+    "conversation": {
+      "layers": [
+        {
+          "draw": [
+            {"op":"rect","rect":[0,0,1,1],"fill":"black"},
+            {"op":"rect","rect":[0,0.0256,0.1354,0.0769],"fill":"orange","radius":0.0385},
+            {"op":"rect","rect":[0.1042,0.0795,0.476,0.0231],"fill":"orange"},
+            {"op":"rect","rect":[0.5865,0.0795,0.1458,0.0231],"fill":"lilac"},
+            {"op":"rect","rect":[0.7385,0.0795,0.1667,0.0231],"fill":"tan"},
+            {"op":"rect","rect":[0.9115,0.0795,0.0885,0.0231],"fill":"peach","radius":0.0115},
+            {"op":"rect","rect":[0,0,0.1042,0.0641],"fill":"orange"},
+            {"op":"rect","rect":[0.1042,0.0026,0.075,0.0769],"fill":"black","radius":0.0179},
+            {"op":"rect","rect":[0,0.1179,0.1354,0.0769],"fill":"orange","radius":0.0385},
+            {"op":"rect","rect":[0.1042,0.1179,0.3125,0.0231],"fill":"orange"},
+            {"op":"rect","rect":[0.4229,0.1179,0.0625,0.0231],"fill":"rust"},
+            {"op":"rect","rect":[0.4917,0.1179,0.3958,0.0231],"fill":"lavender"},
+            {"op":"rect","rect":[0.8938,0.1179,0.1063,0.0231],"fill":"sky","radius":0.0115},
+            {"op":"rect","rect":[0,0.1564,0.1042,0.1641],"fill":"orange"},
+            {"op":"rect","rect":[0,0.3282,0.1042,0.159],"fill":"peach"},
+            {"op":"rect","rect":[0,0.4949,0.1042,0.1077],"fill":"lavender"},
+            {"op":"rect","rect":[0,0.6103,0.1042,0.1538],"fill":"lilac"},
+            {"op":"rect","rect":[0,0.7718,0.1042,0.1897],"fill":"blue"},
+            {"op":"rect","rect":[0.1042,0.141,0.075,0.0769],"fill":"black","radius":0.0179},
+            {"op":"rect","rect":[0,0.9231,0.1354,0.0769],"fill":"blue","radius":0.0385},
+            {"op":"rect","rect":[0.1042,0.9769,0.2708,0.0231],"fill":"blue"},
+            {"op":"rect","rect":[0.3813,0.9769,0.0938,0.0231],"fill":"gold"},
+            {"op":"rect","rect":[0.4813,0.9769,0.4167,0.0231],"fill":"lilac"},
+            {"op":"rect","rect":[0.9042,0.9769,0.0958,0.0231],"fill":"tan","radius":0.0115},
+            {"op":"rect","rect":[0.1042,0.9,0.075,0.0769],"fill":"black","radius":0.0179},
+            {"op":"rect","rect":[0.1208,0.7756,0.5833,0.0051],"fill":"lavender","radius":0.0026},
+            {"op":"rect","rect":[0.7104,0.7756,0.2771,0.0051],"fill":"lilac","radius":0.0026}
+          ]
+        }
+      ],
+      "content": {
+        "header": [0.1208,0.0103,0.8667,0.0641],
+        "transcript": [0.1208,0.1564,0.8667,0.6077],
+        "composer": [0.1208,0.7949,0.8667,0.1692]
+      }
+    },
+    "select": {
+      "theme": {
+        "colors": {
+          "hover": "#33240F",
+          "primary": "peach",
+          "selection": "#5A3A1E"
+        }
+      },
+      "layers": [
+        {
+          "draw": [
+            {"op":"rect","rect":[0,0,1,1],"fill":"black"},
+            {"op":"rect","rect":[0,0,0.0375,0.0769],"fill":"orange"},
+            {"op":"rect","rect":[0,0.0846,0.0375,0.2359],"fill":"peach"},
+            {"op":"rect","rect":[0,0.3282,0.0375,0.2744],"fill":"lavender"},
+            {"op":"rect","rect":[0,0.6103,0.0375,0.2872],"fill":"lilac"},
+            {"op":"rect","rect":[0,0.9051,0.0375,0.0744],"fill":"blue"},
+            {"op":"rect","rect":[0,0.959,0.1375,0.041],"fill":"blue","radius":0.1},
+            {"op":"rect","rect":[0.0375,0.9821,0.56,0.0179],"fill":"blue"},
+            {"op":"rect","rect":[0.635,0.9821,0.14,0.0179],"fill":"gold"},
+            {"op":"rect","rect":[0.8125,0.9821,0.1875,0.0179],"fill":"tan","radius":0.0438},
+            {"op":"rect","rect":[0.0375,0.941,0.2125,0.041],"fill":"black","radius":0.0375}
+          ]
+        }
+      ]
+    },
+    "inspector": {
+      "theme": {
+        "colors": {
+          "disabled": "lavender",
+          "foreground": "#CCCCFF",
+          "primary": "lilac"
+        }
+      },
+      "layers": [
+        {
+          "draw": [
+            {"op":"rect","rect":[0,0,1,1],"fill":"black"},
+            {"op":"rect","rect":[0.96,0,0.04,0.0769],"fill":"orange"},
+            {"op":"rect","rect":[0.96,0.0846,0.04,0.2359],"fill":"peach"},
+            {"op":"rect","rect":[0.96,0.3282,0.04,0.2744],"fill":"lavender"},
+            {"op":"rect","rect":[0.96,0.6103,0.04,0.2872],"fill":"lilac"},
+            {"op":"rect","rect":[0.96,0.9051,0.04,0.0744],"fill":"blue"},
+            {"op":"rect","rect":[0.8533,0.959,0.1467,0.041],"fill":"blue","radius":0.1067},
+            {"op":"rect","rect":[0.4,0.9821,0.56,0.0179],"fill":"blue"},
+            {"op":"rect","rect":[0.22,0.9821,0.14,0.0179],"fill":"gold"},
+            {"op":"rect","rect":[0,0.9821,0.18,0.0179],"fill":"tan","radius":0.0467},
+            {"op":"rect","rect":[0.7333,0.941,0.2267,0.041],"fill":"black","radius":0.04}
+          ]
+        }
+      ]
+    },
+    "settings-nav": {
+      "theme": {
+        "colors": {
+          "hover": "#33240F",
+          "selection": "#5A3A1E"
+        }
+      },
+      "layers": [
+        {
+          "draw": [
+            {"op":"rect","rect":[0,0,1,1],"fill":"black"},
+            {"op":"rect","rect":[0.9214,0,0.0786,0.041],"fill":"orange","radius":0.0571},
+            {"op":"rect","rect":[0.7143,0,0.2643,0.0128],"fill":"orange"},
+            {"op":"rect","rect":[0.6286,0,0.0643,0.0128],"fill":"rust"},
+            {"op":"rect","rect":[0.5357,0,0.0714,0.0128],"fill":"tan","radius":0.0179},
+            {"op":"rect","rect":[0.9786,0.0205,0.0214,0.2154],"fill":"orange"},
+            {"op":"rect","rect":[0.9786,0.2436,0.0214,0.159],"fill":"lilac"},
+            {"op":"rect","rect":[0.9786,0.4103,0.0214,0.2359],"fill":"lavender"},
+            {"op":"rect","rect":[0.9786,0.6538,0.0214,0.2154],"fill":"peach","radius":0.0107},
+            {"op":"rect","rect":[0.8571,0.0128,0.1214,0.041],"fill":"black","radius":0.0214}
+          ]
+        }
+      ]
+    },
+    "settings": {
+      "layers": [
+        {
+          "draw": [
+            {"op":"rect","rect":[0,0,1,1],"fill":"black"},
+            {"op":"rect","rect":[0.9652,0.0103,0.0348,0.0615],"fill":"orange","radius":0.0308},
+            {"op":"rect","rect":[0.6652,0.0103,0.3261,0.0205],"fill":"orange"},
+            {"op":"rect","rect":[0.5935,0.0103,0.0652,0.0205],"fill":"lilac"},
+            {"op":"rect","rect":[0.5435,0.0103,0.0435,0.0205],"fill":"tan","radius":0.0103},
+            {"op":"rect","rect":[0.9913,0.041,0.0087,0.1795],"fill":"orange"},
+            {"op":"rect","rect":[0.9913,0.2282,0.0087,0.0769],"fill":"lavender"},
+            {"op":"rect","rect":[0.9913,0.3128,0.0087,0.0513],"fill":"peach","radius":0.0051},
+            {"op":"rect","rect":[0.9326,0.0308,0.0587,0.0615],"fill":"black","radius":0.0128}
+          ]
+        }
+      ]
+    }
+  }
+}
